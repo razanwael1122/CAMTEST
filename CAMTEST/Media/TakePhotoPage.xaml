@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAMTEST.Media.TakePhotoPage">
+    <ContentPage.Content>
+        
+        
+     
+        <StackLayout>
+            <Image x:Name="myImage" Aspect="AspectFit"
+                   WidthRequest="100 "
+                   HeightRequest="500"/>
+            <Button x:Name="BtnTakePhoto"
+                Text="Take a photo"
+                BackgroundColor="Gray"
+                    Clicked="BtnTakePhoto_Clicked"
+                     HeightRequest="100"
+                     WidthRequest="200"
+                       BorderWidth="7"
+                     BorderColor="Black"
+                      TextColor="Aqua"
+                    CornerRadius="20"
+                    FontSize="16"
+                   FontFamily="Arial"
+                  VerticalOptions="Center"
+                    HorizontalOptions="Center" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
